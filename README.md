@@ -16,34 +16,36 @@ Aplicação web full construída em grupo, aonde foi desenvolvido um sistema de 
 
 ### Instruções
 
-- Para rodar o repositório localmente, realize o clone do projeto e utilize os comandos a seguir para inicializar e instalar as dependências:
+- Para rodar a aplicação localmente e os testes do backend, realize o clone do projeto e utilize os comandos a seguir:
 
 ```
-Para instalar as dependências e iniciar o backend:
-<-- na raiz do projeto -->
-cd backend
-npm install
-npm start
+Para clonar o projeto:
+git clone git@github.com:guilherme-ac-fernandes/delivery-app.git
 
-Para instalar as dependências e iniciar o frontend:
+Para rodar a aplicação dockerizada, instalar as dependências e iniciar as aplicações:
 <-- na raiz do projeto -->
-cd frontend
-npm install
-npm start
+npm run compose:up // para subir o docker-compose
+npm run back:acess // para acessar o container do backend
+npm run db:reset // para criar as tabelas e popular no banco de caso
+exit // para sair do container do backend
 
-ADICIONAR DOCKER
-
-Para rodar o testes do backend:
+Para parar a aplicação dockerizada:
 <-- na raiz do projeto -->
-cd backend
-npm install
-npm run test ou npm run test:coverage
+npm run compose:down // para parar os containers
 
-Para rodar o testes do frontend:
+Para rodar o testes do BackEnd:
 <-- na raiz do projeto -->
-cd frontend
-npm install
-npm run test ou npm run test:coverage
+npm run back:acess
+npm test // para rodar o teste simplificado
+npm run test:coverage // para avaliar a cobertura dos testes
+exit // para sair do container do backend
+
+Para rodar o testes do FrontEnd:
+<-- na raiz do projeto -->
+npm run front:acess
+npm test // para rodar o teste simplificado
+npm run test:coverage // para avaliar a cobertura dos testes
+exit // para sair do container do frontend
 ```
 
 ### Demonstração
