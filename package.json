@@ -18,7 +18,11 @@
     "test": "jest -i --forceExit --verbose --config=./jest.config.js",
     "test:dev": "NODE_ENV=development npm run jest -i --forceExit --config=./jest.config.js",
     "test:dev:open": "NODE_ENV=development HEADLESS=false npm run test:dev",
-    "test:dev:report": "./__tests__/reports/generate.sh"
+    "test:dev:report": "./__tests__/reports/generate.sh",
+    "compose:up": "docker-compose up -d --build",
+    "compose:down": "docker-compose down",
+    "back:acess": "docker exec -it app_backend /bin/sh",
+    "front:acess": "docker exec -it app_frontend /bin/sh"
   },
   "repository": {
     "type": "git",
