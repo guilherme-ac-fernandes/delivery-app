@@ -62,6 +62,17 @@ exit // para sair do container do frontend
 
 ### Demonstração
 
+Rota do Cliente
 <p align="center">
   <img src="https://github.com/guilherme-ac-fernandes/delivery-app/blob/main/demo/customer.gif" alt="App de Delivery - Demostração"/>
+</p>
+
+Rota do Vendedor
+<p align="center">
+  <img src="https://github.com/guilherme-ac-fernandes/delivery-app/blob/main/demo/seller.gif" alt="App de Delivery - Demostração"/>
+</p>
+
+Rota do Administrador
+<p align="center">
+  <img src="https://github.com/guilherme-ac-fernandes/delivery-app/blob/main/demo/admin.gif" alt="App de Delivery - Demostração"/>
 </p>
