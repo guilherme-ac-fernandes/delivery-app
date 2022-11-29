@@ -48,6 +48,7 @@ npm run test:coverage // para avaliar a cobertura dos testes
 exit // para sair do container do frontend
 ```
 
+<br />
 <details>
   <summary><strong>A aplicação já contém alguns usuários criados:</strong></summary><br />
   
