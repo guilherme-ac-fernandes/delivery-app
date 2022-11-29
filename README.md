@@ -49,5 +49,5 @@ npm run test ou npm run test:coverage
 ### Demonstração
 
 <p align="center">
-  <img src="" alt="App de Delivery - Demostração"/>
+  <img src="https://github.com/guilherme-ac-fernandes/delivery-app/blob/main/demo/customer.gif" alt="App de Delivery - Demostração"/>
 </p>
