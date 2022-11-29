@@ -48,6 +48,17 @@ npm run test:coverage // para avaliar a cobertura dos testes
 exit // para sair do container do frontend
 ```
 
+<details>
+  <summary><strong>A aplicação já contém alguns usuários criados:</strong></summary><br />
+  
+ | Usuário | E-mail | Senha |
+|---|---|---|
+| Delivery App Admin | `adm@deliveryapp.com` | `--adm2@21!!--` |
+| Fulana Pereira | `fulana@deliveryapp.com` | `fulana@123` |
+| Cliente Zé Birita | `zebirita@email.com` | `$#zebirita#$` |
+
+</details>
+
 ### Demonstração
 
 <p align="center">
